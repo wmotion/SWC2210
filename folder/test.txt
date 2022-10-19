@@ -11,3 +11,4 @@ jobs
 less test.txt 
 man tail
 tail ~/.bash_history 
+wc ~/.bash_history 
