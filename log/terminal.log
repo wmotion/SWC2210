@@ -9,3 +9,4 @@ touch empty.py
 echo "non-empty" > empty.py 
 git status 
 git push help
+git push --help
