@@ -2,3 +2,6 @@ ls
 history > test.txt
 history
 dgja
+tail -n 2 -f ~/.bash_history > folder/test.txt 
+bg
+jobs
