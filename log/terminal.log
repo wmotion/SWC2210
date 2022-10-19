@@ -2,3 +2,4 @@ cd ..
 ls
 git status 
 nano simple.py 
+git status 
