@@ -8,3 +8,5 @@ l
 cd ..
 ls
 cd documentation/
+git pull
+ls
