@@ -19,3 +19,5 @@ cd unixshell/
 ls
 cd ..
 tree
+cd python/
+ls
