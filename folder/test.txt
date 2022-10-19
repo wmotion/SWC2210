@@ -1,17 +1,4 @@
 ls
-history > test.txt
-history
-dgja
-tail -n 2 -f ~/.bash_history > folder/test.txt 
-bg
-jobs
-ls
-tail -n ~/.bash_history
-tail -n 2 ~/.bash_history
-tail -n 1 ~/.bash_history
-history
-cat test.txt 
-ls
 cd 
 cd -
 mkdir
@@ -20,3 +7,4 @@ cd -
 cd ..
 cd -
 history
+kill %2
