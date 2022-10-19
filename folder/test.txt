@@ -10,3 +10,4 @@ jobs
 kill %2
 history 10
 ls
+cat test.txt 
