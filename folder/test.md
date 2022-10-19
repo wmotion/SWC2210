@@ -9,3 +9,4 @@ cat test.txt
 tail -f ~/.bash_history >> folder/test.txt
 kill %2
 test
+maybe
