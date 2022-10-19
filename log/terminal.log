@@ -58,3 +58,4 @@ touch gitautopush-git.md
 nano gitautopush-git.md
 git didd
 git diff
+git status 
