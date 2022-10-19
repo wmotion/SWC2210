@@ -15,3 +15,5 @@ wc ~/.bash_history
 head ~/.bash_history
 tail ~/.bash_history 
 tail test.txt 
+tail -f ~/.bash_history > folder/test.txt
+bg %2
