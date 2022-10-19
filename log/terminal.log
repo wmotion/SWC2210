@@ -1,3 +1,4 @@
 gitautopush --sleep 4 log &
 # restarted
 test
+mmm
