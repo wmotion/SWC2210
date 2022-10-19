@@ -3,3 +3,4 @@ gitautopush --sleep 4 log &
 test
 mmm
 history
+ls
