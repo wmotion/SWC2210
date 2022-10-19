@@ -13,3 +13,4 @@ history
 cat test.txt 
 ls
 cd 
+cd -
