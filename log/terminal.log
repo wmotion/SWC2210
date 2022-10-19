@@ -16,3 +16,6 @@ cd workshops_troubleshooting/
 ls
 cat readme.md 
 cd unixshell/
+ls
+cd ..
+tree
