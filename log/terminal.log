@@ -5,3 +5,5 @@ true
 ls
 cd ../../
 l
+cd ..
+ls
