@@ -1,0 +1,10 @@
+kill %2
+# start again with append
+ls
+rm test.txt 
+ls
+tail -f ~/.bash_history >> folder/test.txt
+bg %2
+bg
+jobs
+kill %2
