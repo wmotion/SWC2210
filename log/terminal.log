@@ -44,3 +44,4 @@ git commit
 git log
 git push 
 git remote 
+git remote -v
