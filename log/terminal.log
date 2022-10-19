@@ -24,3 +24,4 @@ ls
 mv installing-anaconda-LINUX.md anaconda_install_linux.md
 mv installing-anaconda-MAC.md  anaconda_install_mac.md
 mv installing-anaconda-WINDOWS.md anaconda_install_windows.md
+mv add-anaconda-to-the-path.md anaconda_add-to-path.md
