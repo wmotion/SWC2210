@@ -43,3 +43,4 @@ git status
 git commit
 git log
 git push 
+git remote 
