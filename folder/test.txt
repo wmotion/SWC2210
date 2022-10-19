@@ -1,0 +1,10 @@
+cd ..
+cd -
+history
+kill %2
+ls
+rm test.txt 
+ls
+tail -f ~/.bash_history > folder/test.txt 
+kill %2
+jobs
