@@ -10,3 +10,4 @@ tail -f ~/.bash_history >> folder/test.txt
 kill %2
 test
 maybe
+echo
