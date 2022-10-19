@@ -23,3 +23,4 @@ cd python/
 ls
 mv installing-anaconda-LINUX.md anaconda_install_linux.md
 mv installing-anaconda-MAC.md  anaconda_install_mac.md
+mv installing-anaconda-WINDOWS.md anaconda_install_windows.md
