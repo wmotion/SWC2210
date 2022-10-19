@@ -34,3 +34,4 @@ ls
 git status 
 cd ../../
 ls
+git status 
