@@ -7,3 +7,4 @@ bg
 jobs
 ls
 tail -n ~/.bash_history
+tail -n 2 ~/.bash_history
