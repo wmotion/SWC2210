@@ -1,5 +1,3 @@
- 1075  cd article
- 1076  git graph 
  1077  gocoderefinery 
  1078  ls
  1079  cd ../0000-swc/
@@ -998,3 +996,5 @@
  2072  jobs
  2073  kill %1
  2074  history > test.txt
+ 2075  cat test.txt 
+ 2076  history > test.txt
