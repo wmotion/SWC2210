@@ -8,3 +8,4 @@ cat test.txt
 history > test.txt
 export PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 echo
+cat test.txt 
