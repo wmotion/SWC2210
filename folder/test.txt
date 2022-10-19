@@ -21,3 +21,4 @@ jobs
 man tail
 ls
 man tail
+history 3
