@@ -1,3 +1,11 @@
+ 1064  cd
+ 1065  conda deactivate
+ 1066  gokrasky 
+ 1067  cd tex
+ 1068  git graph
+ 1069  goaristotele 
+ 1070  ls
+ 1071  cd tex
  1072  git graph 
  1073  paper.m 
  1074  gomeringolo 
@@ -990,11 +998,3 @@
  2061  while :; do history > test.txt ; sleep 1; done
  2062  while :; do history > test.txt ; sleep 1; done > /dev/null
  2063  while :; do history > test.txt ; sleep 2; done > /dev/null &
- 2064  ls
- 2065  history
- 2066  try
- 2067  history
- 2068  jobs
- 2069  history
- 2070  cat test.txt 
- 2071  history > test.txt
