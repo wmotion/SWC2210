@@ -4,3 +4,4 @@ false
 echo
 # how good
 git status 
+git pull
