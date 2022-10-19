@@ -11,3 +11,4 @@ echo
 cat test.txt 
 ls
 man tail
+export PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
