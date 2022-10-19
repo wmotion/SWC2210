@@ -12,3 +12,4 @@ git push help
 git push --help
 git remote -v
 git push origin main
+git push origin notes 
