@@ -5,3 +5,4 @@ echo
 # how good
 git status 
 git pull
+mkdir ../log
