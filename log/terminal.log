@@ -6,3 +6,4 @@ history
 ls
 cat simple.py 
 touch empty.py
+echo "non-empty" > empty.py 
