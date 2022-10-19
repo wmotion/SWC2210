@@ -35,3 +35,5 @@ git status
 cd ../../
 ls
 git status 
+git add workshops_troubleshooting/
+git status 
