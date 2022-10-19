@@ -14,3 +14,7 @@ cat test.txt
 ls
 cd 
 cd -
+mkdir
+cd
+cd -
+cd ..
