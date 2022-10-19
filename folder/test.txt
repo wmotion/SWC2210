@@ -1,6 +1,3 @@
- 1077  gocoderefinery 
- 1078  ls
- 1079  cd ../0000-swc/
  1080  ls
  1081  cd -
  1082  ls
@@ -997,4 +994,7 @@
  2073  kill %1
  2074  history > test.txt
  2075  cat test.txt 
- 2076  history > test.txt
+ 2076* 
+ 2077  history
+ 2078  cat test.txt 
+ 2079  history > test.txt
