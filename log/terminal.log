@@ -51,3 +51,4 @@ mkdir workshop_preparation
 cd workshop_preparation/
 ls
 touch gitautopush-linux.md
+nano gitautopush-linux.md 
