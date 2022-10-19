@@ -10,3 +10,4 @@ export PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 echo
 cat test.txt 
 ls
+man tail
