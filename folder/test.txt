@@ -1,4 +1,3 @@
- 1063  ls
  1064  cd
  1065  conda deactivate
  1066  gokrasky 
@@ -998,3 +997,4 @@
  2060  ls
  2061  while :; do history > test.txt ; sleep 1; done
  2062  while :; do history > test.txt ; sleep 1; done > /dev/null
+ 2063  while :; do history > test.txt ; sleep 2; done > /dev/null &
