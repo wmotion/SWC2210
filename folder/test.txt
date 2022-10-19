@@ -20,3 +20,4 @@ bg %2
 jobs
 man tail
 ls
+man tail
