@@ -48,3 +48,5 @@ git remote -v
 git push wmotion
 ls
 mkdir workshop_preparation
+cd workshop_preparation/
+ls
