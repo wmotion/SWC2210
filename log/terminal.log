@@ -14,3 +14,4 @@ mv troubleshooting-workshops/ workshops_troubleshooting
 ls
 cd workshops_troubleshooting/
 ls
+cat readme.md 
