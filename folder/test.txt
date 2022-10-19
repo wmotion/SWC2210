@@ -722,3 +722,279 @@
  1783  # ctrl + L should clear the screen
  1784  history
  1785  git --version
+ 1786  git --help
+ 1787  git init
+ 1788  ls
+ 1789  ls -a # a stands for all
+ 1790  # cd git-workshop
+ 1791  pwd
+ 1792  ls .git
+ 1793  # configuration
+ 1794  git config --global user.name "Giordano Lipari"
+ 1795  git config --global user.email "wmotion.eu@gmail.com"
+ 1796  git config --list
+ 1797  git config --global core.autocrlf true  # windows user
+ 1798  git config --global core.autocrlf input  # Linux/Mac users
+ 1799  # crlf = carriage return/line feed
+ 1800  history
+ 1801  git config --list
+ 1802  ls
+ 1803  # nano is text editor
+ 1804  nano simple.py
+ 1805  cat simple.py
+ 1806  history 20
+ 1807  ls
+ 1808  nano simple.py
+ 1809  # ^O and ^X to leave nano safely
+ 1810  nano simple.py
+ 1811  ls
+ 1812  git status
+ 1813  git add simple.py
+ 1814  git status 
+ 1815  # git config --global core.autocrlf true  # windows user
+ 1816  git commit -m "Add file simple.py"
+ 1817  git status 
+ 1818  git log
+ 1819  history 10
+ 1820  nano simple.py
+ 1821  cat simple.py
+ 1822  git status
+ 1823  git diff
+ 1824  cat simple.py
+ 1825  git status 
+ 1826  git add
+ 1827  git add simple.py
+ 1828  git status 
+ 1829  git log
+ 1830  # hashtag/hash/tag
+ 1831  # folder/directory
+ 1832  ls 
+ 1833  mkdir folder
+ 1834  ls
+ 1835  git status
+ 1836  cd folder
+ 1837  pwd
+ 1838  nano second.py
+ 1839  ls
+ 1840  git status 
+ 1841  cd ..
+ 1842  pwd
+ 1843  git status
+ 1844  git add simple.py 
+ 1845  git status 
+ 1846  git commit simple.py -m "Add another line"
+ 1847  git log
+ 1848  git status 
+ 1849  git add folder/
+ 1850  git status 
+ 1851  ls
+ 1852  git diff
+ 1853  git commit -m "Add second file in new directory"
+ 1854  git log
+ 1855  # back at 14:20
+ 1856  git diff
+ 1857  git log
+ 1858  git log --oneline
+ 1859  # focus on git diff
+ 1860  ls
+ 1861  git log --oneline
+ 1862  git diff 6a25f07 1cfa6e8
+ 1863  git diff 1cfa6e8 6a25f07
+ 1864  git diff 1cfa6e8 HEAD
+ 1865  git diff HEAD
+ 1866  git status
+ 1867  git diff 6c9fd49
+ 1868  git diff 6c9fd49 simple.py
+ 1869  git diff 6c9fd49 second.py
+ 1870  ls
+ 1871  ls folder/
+ 1872  git log --oneline
+ 1873  git diff 6c9fd49 folder/second.py
+ 1874  ls
+ 1875  ls -a
+ 1876  # git init
+ 1877  # git status
+ 1878  # git add
+ 1879  # git log
+ 1880  # git diff
+ 1881  # git config
+ 1882  # git commmit
+ 1883  history > history.log
+ 1884  nano history.log
+ 1885  git status 
+ 1886  nano .gitignore
+ 1887  cat .gitignore
+ 1888  git status 
+ 1889  nano .gitgnore
+ 1890  nano .gitignore
+ 1891  git status 
+ 1892  nano .gitignore
+ 1893  git status 
+ 1894  git add .gitignore 
+ 1895  git status
+ 1896  git commit .gitignore -m "Add .gitignore file"
+ 1897  git status 
+ 1898  git log
+ 1899  git log --oneline
+ 1900  ls -a
+ 1901  pwd
+ 1902  cd ..
+ 1903  git clone git@github.com:wmotion/software_carpentry_learner.git
+ 1904  ls
+ 1905  cd software_carpentry_learner/
+ 1906  ls
+ 1907  ls -a
+ 1908  pwd
+ 1909  ls
+ 1910  nano processing.py 
+ 1911  git status 
+ 1912  git add processing.py 
+ 1913  git commit -m "Fix typo and add comment"
+ 1914  git log
+ 1915  git log --oneline
+ 1916  git push
+ 1917  git pull
+ 1918  nano processing.py 
+ 1919  git status 
+ 1920  git add processing.py 
+ 1921  git commit processing.py -m "Fix conflicts and add comment"
+ 1922  git status 
+ 1923  history 10
+ 1924  # back at 15:55
+ 1925  history 10
+ 1926  # back at 15:55
+ 1927  git commit processing.py -m "Fix conflicts and add comment"
+ 1928  git commit
+ 1929  git log
+ 1930  pit push
+ 1931  git push
+ 1932  git log --oneline
+ 1933  pwd
+ 1934  cd ..
+ 1935  ls
+ 1936  cd git-workshop/
+ 1937  pwd
+ 1938  ls -1
+ 1939  ls -a
+ 1940  pwd
+ 1941  ssh-keygen -t ed25519 -C "wmotion.eu@gmail.com" # email linked to GitHub
+ 1942  eval "$(ssh-agent -s)"
+ 1943  ssh-add /home/waterbeweging/.ssh/id_ed25519
+ 1944  nano /home/waterbeweging/.ssh/id_ed25519.pub
+ 1945  cat /home/waterbeweging/.ssh/id_ed25519.pub
+ 1946  ssh -T git@github.com
+ 1947  pwd
+ 1948  ls -a
+ 1949  git remote add origin git@github.com:wmotion/SWC2210.git
+ 1950  git remote -v  # v for verbose
+ 1951  # git pull = git fetch + git merge
+ 1952  git branch
+ 1953  git branch -M main
+ 1954  git branch
+ 1955  git push -u origin main
+ 1956  git push
+ 1957  git remove -v
+ 1958  git remote -v
+ 1959  ls
+ 1960  ls -a
+ 1961  nano simple.py
+ 1962  git status 
+ 1963  git add simple.py 
+ 1964  git status 
+ 1965  git diff
+ 1966  git commit simple.py -m "Add new greeting"
+ 1967  git log
+ 1968  git status 
+ 1969  git push
+ 1970  git log --oneline
+ 1971  ls 
+ 1972  cat simple.py 
+ 1973  git checkout 6c9fd49
+ 1974  ls
+ 1975  cat simple.py
+ 1976  git log --oneline
+ 1977  git checkout 42ae1d8
+ 1978  ls
+ 1979  git log --oneline
+ 1980  cat simple.py
+ 1981  ls
+ 1982  cd ..
+ 1983  ls
+ 1984  cd ..
+ 1985  ls
+ 1986  history
+ 1987  history > 221019-history.log
+ 1988  ls
+ 1989  mv 221019-history.log Desktop/
+ 1990  mkdir git
+ 1991  mv git/ Desktop/
+ 1992  cd Desktop/
+ 1993  ls
+ 1994  mv 221019-history.log git-workshop/ software_carpentry_learner/ git
+ 1995  mv git/ swc2210-git
+ 1996  ls
+ 1997  mv .hidden/* .
+ 1998  ls
+ 1999  python --version
+ 2000  pip --version
+ 2001  gocarpentries 
+ 2002  ls
+ 2003  cd git/
+ 2004  ls
+ 2005  while :; do history > test/SWC2210/folder/history.log ; sleep 2, done
+ 2006  while :; do history > test/SWC2210/folder/history.log ; sleep 2; done
+ 2007  while :; do history > test/SWC2210/folder/history.log ; sleep 2; done &
+ 2008  ls
+ 2009  cd test/SWC2210/
+ 2010  history
+ 2011  ls
+ 2012  ls -a
+ 2013  ls folder/
+ 2014  ll folder/history.log 
+ 2015  ls folder/
+ 2016  ll folder/history.log 
+ 2017* ls -a
+ 2018  ls folder/
+ 2019  ll folder/history.log 
+ 2020  date && ll folder/history.log 
+ 2021  ls
+ 2022  cat folder/history.log 
+ 2023  jobs
+ 2024  kill %1
+ 2025  ls
+ 2026  history > folder/history.log 
+ 2027  history
+ 2028  ls
+ 2029  ls -a
+ 2030  history > folder/history.log 
+ 2031  ll folder/history.log 
+ 2032  history > folder/history.log 
+ 2033  cat
+ 2034  history > folder/history.log 
+ 2035  ll folder/history.log 
+ 2036  history > folder/history.log 
+ 2037  cd folder
+ 2038  cat newfile.txt
+ 2039  touch newfile.txt
+ 2040  echo "sgh" >> newfile.txt
+ 2041  history 3
+ 2042  history > ./history.log 
+ 2043  history 3
+ 2044  tail history.log 
+ 2045  history > ./history.log 
+ 2046  tail history.log 
+ 2047  rm history.log
+ 2048  history > ./history.log 
+ 2049  ls
+ 2050  rm history.log 
+ 2051  touch history.log
+ 2052  history > ./history.log 
+ 2053  cat history.log 
+ 2054  history > ./history.log 
+ 2055  touch test.txt
+ 2056  ls test.txt 
+ 2057  ls
+ 2058  history >> ./test.txt
+ 2059  history > ./test.txt
+ 2060  ls
+ 2061  while :; do history > test.txt ; sleep 1; done
