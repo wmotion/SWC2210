@@ -37,3 +37,4 @@ ls
 git status 
 git add workshops_troubleshooting/
 git status 
+git add
