@@ -55,3 +55,4 @@ nano gitautopush-linux.md
 mv gitautopush-unixshell.md 
 mv gitautopush-linux.md gitautopush-unixshell.md 
 touch gitautopush-git.md
+nano gitautopush-git.md
