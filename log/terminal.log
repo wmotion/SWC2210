@@ -21,3 +21,4 @@ cd ..
 tree
 cd python/
 ls
+mv installing-anaconda-LINUX.md anaconda_install_linux.md
