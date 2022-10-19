@@ -8,3 +8,4 @@ cat test
 cat test.txt 
 ls
 kill %2
+# start again with append
