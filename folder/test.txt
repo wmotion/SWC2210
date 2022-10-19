@@ -11,3 +11,5 @@ tail -n 2 ~/.bash_history
 tail -n 1 ~/.bash_history
 history
 cat test.txt 
+ls
+cd 
