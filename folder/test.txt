@@ -8,3 +8,4 @@ cd ..
 cd -
 history
 kill %2
+ls
