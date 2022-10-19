@@ -10,3 +10,4 @@ kill %2
 jobs
 less test.txt 
 man tail
+tail ~/.bash_history 
