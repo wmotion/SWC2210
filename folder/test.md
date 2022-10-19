@@ -8,3 +8,4 @@ cat test.txt
 # i can play here
 tail -f ~/.bash_history >> folder/test.txt
 kill %2
+test
