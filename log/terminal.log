@@ -10,3 +10,4 @@ ls
 cd documentation/
 git pull
 ls
+mv troubleshooting-workshops/ workshops_troubleshooting
