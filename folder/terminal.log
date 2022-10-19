@@ -3,3 +3,4 @@ true
 false
 echo
 # how good
+git status 
