@@ -17,3 +17,4 @@ tail ~/.bash_history
 tail test.txt 
 tail -f ~/.bash_history > folder/test.txt
 bg %2
+jobs
