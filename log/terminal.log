@@ -31,3 +31,4 @@ mv anaconda_install_linux.md anaconda-install_linux.md
 mv anaconda_install_mac.md anaconda-install_mac.md 
 mv anaconda_install_windows.md anaconda-install_windows.md 
 ls
+git status 
